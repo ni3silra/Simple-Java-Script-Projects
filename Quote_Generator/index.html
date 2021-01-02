@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" type="images/png" href="https://raw.githubusercontent.com/ni3silra/Quote-Generator/main/resources/favi/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- div -->
+    <div class="quote-container" id="quote-container" >
+        <!-- Quote -->
+        <div class="quote-text">
+            <!-- icon -->
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+          <!-- Author -->
+          <div class="quote-author">
+              <span id="id-quote-author"></span>
+          </div>
+           <!-- Button -->
+           <div class="button-container">
+         <button class="previous-button" id = "get-previous-quote" size = "0.2rem" disabled>Previous</button>    
+         <button class="twitter-button" id = "twitter" title="Tweet This!" autofocus> <i class="fab fa-twitter"></i></button>
+        <button class="new-quote-button" id = "new-quote">Generate</button>    
+        </div>
+    </div>
+    <!-- Loader -->
+<div class="loader" id="loader" hidden=true></div>
+
+    <!-- Script  -->
+    <script src = "script.js" ></script>
+
+    <!-- <div class="footer">
+        <a href = 'https://github.com/ni3silra/Quote-Generator'>© 2020 Ni3silra</a>
+      </div> -->
+</body>
+</html>
