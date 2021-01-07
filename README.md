@@ -2,7 +2,7 @@
 <br>
 
 ## Quote Generator
->***[Go Live](https://ni3silra.github.io/Quote-Generator/)*** <br> ***[Code Base](https://github.com/ni3silra/Quote-Generator)***
+[ Comment ]: #***[Go Live](https://ni3silra.github.io/Quote-Generator/)*** <br> ***[Code Base](https://github.com/ni3silra/Quote-Generator)***
 <br>
 
 ## Infinite Scroll
